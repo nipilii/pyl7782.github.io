@@ -1,7 +1,67 @@
+a{
+	text-decoration: none;
+	color:#000;
+}
+
 #photo{
 	width:100px;
 }
+
+
+.greywhenhover:hover{
+	color:#9c9b9b;
+}
+
+.nav{
+    display: inline-block; 
+    width:130px;
+    font-size:13px;
+    letter-spacing: 0.7px;
+
+}
+
+#navbar{
+	margin-top:65px;
+}
+
+#snswrapper{
+	position:fixed;
+    height:50px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+.sns{
+	display: inline-block;
+	width:35px;
+}
+
+#name{
+	font-size: 50px;
+	font-family: SignPainter;
+	margin-top: 40px;
+	letter-spacing: 1px;
+}
+
+#email{
+	margin: 0 auto;
+	width: 300px;
+	margin-top: 40px;
+}
+
+@font-face{
+	font-family: Coves;
+	src: url(../font/coves light.otf);
+}
+
+@font-face{
+	font-family: Modern Sans;
+	src: url(moderne sans.ttf);
+}
+
 body{
 text-align: center;
-	color:#007eac;
+font-family: Coves;
+font-weight: bolder;
 }
