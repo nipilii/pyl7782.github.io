@@ -1,8 +1,6 @@
 $( document ).ready(function() {
 
 	var currenturl = window.location.href;
-
-
 	console.log("current URL is: " + currenturl);
 
 	var i = currenturl.indexOf("github.io");
