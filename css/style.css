@@ -52,12 +52,12 @@ a{
 
 @font-face{
 	font-family: Coves;
-	src: url(../font/coves light.otf);
+	src: url(../font/coves_light.otf);
 }
 
 @font-face{
 	font-family: Modern Sans;
-	src: url(moderne sans.ttf);
+	src: url(../font/modern_sans.ttf);
 }
 
 body{
