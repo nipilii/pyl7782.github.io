@@ -2,10 +2,18 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" href="./css/style.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="./javascript/main.js"></script>
+
 		<meta name="description" content="Yealin's website">
+
+		<link rel="stylesheet" href="./css/style.css">
+	
+		<script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
+		<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>	
+		<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+		<script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+	
+<script src="./javascript/main.js"></script>
+
 	</head>
 
 <body>
@@ -18,15 +26,50 @@
 	</div>
 
 
-	<div id="snswrapper">
+
+	<div id="gallery" style="display:none;">
+
+		<a href="http://unitegallery.net">
+		<img alt="Cat"
+		     src="./img/sample_image/1.1.jpg"
+		     data-image="./img/sample_image/1.jpg"
+		     data-description="This is a cat"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Cat2"
+		     src="./img/sample_image/2.1.jpg"
+		     data-image="./img/sample_image/2.jpg"
+		     data-description="cat"
+		     style="display:none">
+		</a>
+
+	</div>
+
+	<div class="footer">
 		<div class="sns">
 			<a href="https://www.instagram.com/yealinparkkk/">
-			<img style="width:25px;" src="./img/instagram.png"></img>
+			<img style="width:25px;" src="./img/instagram.png";></img>
 			</a>
 		</div>
 		<div class="sns">
 			<img style="width:25px;" src="./img/facebook.png"></img>
 		</div>
 	</div>
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			
+
+			$("#gallery").unitegallery();
+
+
+		});
+		
+	</script>
+
 </body>
 </html>
